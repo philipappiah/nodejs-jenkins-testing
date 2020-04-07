@@ -1,0 +1,20 @@
+{
+  "name": "testmocha",
+  "version": "1.0.0",
+  "description": "testing with mocha",
+  "main": "index.js",
+  "scripts": {
+    "start": "node first",
+    "test": "mocha"
+  },
+  "author": "philip",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.17.1",
+    "mocha": "^7.1.1"
+  },
+  "devDependencies": {
+    "supertest": "^4.0.2"
+  }
+}
